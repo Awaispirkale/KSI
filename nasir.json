@@ -4,5 +4,11 @@
     "item": "30amp",
     "price": 300,
     "timestamp": "2025-07-17T18:57:09.101Z"
+  },
+  {
+    "name": "Nasir",
+    "item": "20amp",
+    "price": 200,
+    "timestamp": "2025-07-17T18:57:20.382Z"
   }
 ]
