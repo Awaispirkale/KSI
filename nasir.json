@@ -22,5 +22,11 @@
     "item": "Inverter repair ",
     "price": 3600,
     "timestamp": "2025-07-19T12:11:52.916Z"
+  },
+  {
+    "name": "Suleman",
+    "item": "30Amp charger",
+    "price": 600,
+    "timestamp": "2025-07-19T12:12:30.418Z"
   }
 ]
