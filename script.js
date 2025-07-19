@@ -45,7 +45,7 @@
         // Load records from GitHub
         async function loadRecords() {
             try {
-                const owner = 'Awaispirkale';
+                const owner = 'streamifytv';
                 const repo = 'KSI';
                 const path = 'nasir.json';
                 const token = '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'; // WARNING: Remove this before sharing code
@@ -77,7 +77,7 @@
         // Load customer names
         async function loadCustomerNames() {
             try {
-                const owner = 'Awaispirkale';
+                const owner = 'streamifytv';
                 const repo = 'KSI';
                 const path = 'customer.json';
                 const token = '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'; // WARNING: Remove this before sharing code
@@ -154,7 +154,7 @@
         
         // Update customer file on GitHub
         async function updateCustomerFile() {
-            const owner = 'Awaispirkale';
+            const owner = 'streamifytv';
             const repo = 'KSI';
             const path = 'customer.json';
             const token = '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'; // WARNING: Remove this before sharing code
@@ -233,7 +233,7 @@
         
         // Update GitHub file
         async function updateGitHubFile() {
-            const owner = 'Awaispirkale';
+            const owner = 'streamifytv';
             const repo = 'KSI';
             const path = 'nasir.json';
             const token = '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'; // WARNING: Remove this before sharing code
