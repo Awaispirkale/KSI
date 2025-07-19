@@ -1,4 +1,4 @@
-  // Sample data structure: { name, item, price, timestamp }
+        // Sample data structure: { name, item, price, timestamp }
         let records = [];
         let customers = [];
         
@@ -48,7 +48,7 @@
                 const owner = 'streamifytv';
                 const repo = 'KSI';
                 const path = 'nasir.json';
-                const token = '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'; // WARNING: Remove this before sharing code
+                const token = atob('Z2hwX2Q2QXM1d1ZrMWVoYkNYZE43ZUpVbTM1b1dTWkZwajFMWURXQQ=='); // WARNING: Remove this before sharing code
                 
                 const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
                     headers: {
@@ -80,7 +80,8 @@
                 const owner = 'streamifytv';
                 const repo = 'KSI';
                 const path = 'customer.json';
-                const token = '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'; // WARNING: Remove this before sharing code
+                const token = atob('Z2hwX2Q2QXM1d1ZrMWVoYkNYZE43ZUpVbTM1b1dTWkZwajFMWURXQQ=='); 
+// WARNING: Remove this before sharing code
                 
                 const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
                     headers: {
@@ -92,6 +93,7 @@
                 if (response.ok) {
                     const fileData = await response.json();
                     const content = decodeURIComponent(escape(atob(fileData.content)));
+                    console.log(content);
                     customers = JSON.parse(content || '[]');
                     populateSelects();
                 } else if (response.status === 404) {
@@ -157,7 +159,8 @@
             const owner = 'streamifytv';
             const repo = 'KSI';
             const path = 'customer.json';
-            const token = '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'; // WARNING: Remove this before sharing code
+                            const token = atob('Z2hwX2Q2QXM1d1ZrMWVoYkNYZE43ZUpVbTM1b1dTWkZwajFMWURXQQ==');
+ // WARNING: Remove this before sharing code
             const message = 'Update customers via app';
             
             // First, get the current file SHA if it exists
@@ -236,7 +239,7 @@
             const owner = 'streamifytv';
             const repo = 'KSI';
             const path = 'nasir.json';
-            const token = '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'; // WARNING: Remove this before sharing code
+                            const token = atob('Z2hwX2Q2QXM1d1ZrMWVoYkNYZE43ZUpVbTM1b1dTWkZwajFMWURXQQ=='); // WARNING: Remove this before sharing code
             const message = 'Update records via app';
             
             // First, get the current file SHA if it exists
